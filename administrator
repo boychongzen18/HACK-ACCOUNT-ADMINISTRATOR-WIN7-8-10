@@ -1,0 +1,54 @@
+CARA HACK USER ACCOUNT ADMINISTRATOR WIN7/8/10
+
+METODE #1
+Cara ini digunakan jika kita benar-benar tidak mengetahui password dan kita tidak bisa login ke dalam baranda atau home dekstop, berikut langkah-langkah yang di perlukan : 
+  
+1. Pertama, kita Restart komputer atau Laptop
+2. Kemudian kita masuk ke Safe Mode dengan cara tekan F8 saat windows sedang Booting. (atau tekan tergantung tombol safe mode pada laptop masing – masing).
+3. Setelah itu, kita pilih “Repair Your Computer”. Maka, akan keluar tampilan interface dari “Repair Your Computer”.
+4. Lalu, klik CMD. Kemudian ketik “ net user administrator /active:yes” (tanpa menggunakan tanda kutip)
+5. Setelah itu akan muncul pesan “ the command active successfully “
+6. Kemudian, kita ketikan kembali pada jendela Command Prompt “ net user administrator password “. (ingat ya tanpa tanda kutip).
+7. Kita ganti deh password sesuai selera kita masing – masing.
+8. Setelah itu, kita bisa tutup jendela Command Prompt. Kemudian kita Restart komuter atau Laptop kita
+
+METODE #2
+Cara ini digunakan jika kita dapat login atau sudah masuk di layar utama dekstop / baranda 
+
+1. Pertama, klik windows - isikan pencarian "CMD" Command Prompt
+2. Klik kanan aplikasi CMD terserbut dan RUN AS ADMINISTRATOR 
+3. Kemudian kita membuas User Login sendiri, ketikan : net user "NAMA USER" /add (tanpa tanda kutip"
+4. Jika kita hendak mendelete User admin / yang telah kita buat tadi, ketikan : net user "NAMA USER YANG AKAN DI HAPUS" /delete
+
+METODE #3 
+Cara memasuki password login administrator
+Buka Explorer dan masuki C>windows>system32
+Cari dan Copy cmd, lalu paste di desktop
+Lalu file tadi di rename dengan nama "sethc"
+Lalu Cut File "sethc" tadi dan paste ke C>windows>system32 kembali
+Setelah itu komputer direstart
+Ketika muncul tampilan logon dilayar dan meminta anda memasukkan password logon, Tekan tmbol Shift 5 atau 6 kali secara berulang.
+cmd akan muncul lalu ketik "net user ADMINISTRATOR * dan tekan enter
+komputer akan meminta anda memasukkan password baru untuk administrator, ketik password baru anda.
+Keluar dan sekarang anda tidak hanya mengetahui password administrator, juga anda bisa mengetahui password user lain dalam komputer itu.
+METODE #4
+Cara Membobol Komputer/Laptop yang dipassword  
+Buka komputer/laptop sobat yang udah di password 
+Ketika dimintai password, sobat tekan CTRL+ALT+DEL sebanyak dua kali, dan akan            mucul  kotak dialog dengan dua textbox yang meminta nama account dan passwordnya. 
+So  bat isikan nama account nya : Administrator , dan kosongkan password nya. 
+METODE #5 
+Cara Membuat password dan Mengubah Password
+Untuk membuat password pada masing-masing user dapat dilakukan dengan memberikan perintah berikut ini.
+Net user {nama user} {password}
+Contoh : net user guest 1234
+Penjelasannya : Net user adalah perintah, kemudian guest adalah nama user dan 1234 adalah password, jadi perintah di atas adalah membuat atau mengubah password bagi nama pengguna Guest. 
+METODE #6 
+Cara Menghapus password
+
+Akun Guest yang sudah dibuatkan passwordnya melalui command prompt, sekarang kita akan menghilangkannya atau menghapusnya, caranya dengan perintah berikut :
+Net user guest * ENTER 
+
+Setelah menekan enter maka muncul pesan “Type a password for the user :” tekan ENTER saja karena kita tidak ingin membuat password melainkan menghapus password yang ada.
+Berikutnya adalah pesan “Retype the password to confirm :” juga tekan ENTER saja karena tidak ada password sehingga muncul pesan yang terakhir “The Command Complited Successfully” yang berarti bahwa perintah menghilangkan password tersebut sudah berhasil dilakukan.
+
+Perintah menghapus password di atas juga dapat digunakan untuk membuat sebuah password baru. Apabila hendak membuat password baru dengan perintah di atas maka pada saat muncul pesan “Type a password for the user :” maka tulis atau ketikan password untuk user tersebut (contoh : 1234) dan tekan ENTER, kemudian muncul pesan kedua “Retype the password to confirm :” maka ketiklan sekali lagi password (contoh : 1234) kemudian tekan ENTER. 
