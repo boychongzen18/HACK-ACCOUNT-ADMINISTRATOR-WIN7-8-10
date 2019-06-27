@@ -56,6 +56,7 @@ Berikutnya adalah pesan “Retype the password to confirm :” juga tekan ENTER 
 Perintah menghapus password di atas juga dapat digunakan untuk membuat sebuah password baru. Apabila hendak membuat password baru dengan perintah di atas maka pada saat muncul pesan “Type a password for the user :” maka tulis atau ketikan password untuk user tersebut (contoh : 1234) dan tekan ENTER,
 kemudian muncul pesan kedua “Retype the password to confirm :” maka ketiklan sekali lagi password (contoh : 1234) kemudian tekan ENTER. 
 
-SUPER_USER WIN7/8/10
+METODE #7 
+SUPER_USER WIN7/8/10 [ SUDO,ROOT ]
 runas /noprofile /user:Administrator cmd
 Administrator:pwd
