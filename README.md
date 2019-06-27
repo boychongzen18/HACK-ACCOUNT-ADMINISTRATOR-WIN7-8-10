@@ -1,6 +1,6 @@
 # ACCOUNT ADMINISTRATOR WIN7/8/10
 
-# lIVE TARGET WINDOWS 7
+# LIVE TARGET WINDOWS 7
 ![be](https://raw.githubusercontent.com/boychongzen18/HACK-ACCOUNT-ADMINISTRATOR-WIN7-8-10/master/Screenshot_1.jpg)
 ![be](https://raw.githubusercontent.com/boychongzen18/HACK-ACCOUNT-ADMINISTRATOR-WIN7-8-10/master/Screenshot_2.jpg)
 ![be](https://raw.githubusercontent.com/boychongzen18/HACK-ACCOUNT-ADMINISTRATOR-WIN7-8-10/master/Screenshot_3.jpg)
