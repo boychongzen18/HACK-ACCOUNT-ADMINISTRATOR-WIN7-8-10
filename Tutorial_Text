@@ -57,6 +57,9 @@ Perintah menghapus password di atas juga dapat digunakan untuk membuat sebuah pa
 kemudian muncul pesan kedua “Retype the password to confirm :” maka ketiklan sekali lagi password (contoh : 1234) kemudian tekan ENTER. 
 
 METODE #7 
-SUPER_USER WIN7/8/10 [ SUDO,ROOT ]
+Eksekusi >> SUPER_USER WIN7/8/10
+
+1.buka cmd & ketik dibawah :
 runas /noprofile /user:Administrator cmd
+2.isi Password :
 Administrator:pwd
