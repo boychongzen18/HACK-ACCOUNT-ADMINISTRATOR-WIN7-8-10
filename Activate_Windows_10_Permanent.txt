@@ -1,0 +1,12 @@
+Activate Windows 10 Permanent
+
+run ketik regedit
+
+Cari Folder dibawah
+HKEY_Local Machine
+System
+Current Control Set
+svsvc
+
+klik 2x start
+edit ke 4
